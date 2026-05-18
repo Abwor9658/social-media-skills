@@ -60,6 +60,33 @@ Tools for account configuration, team, and subscription management.
 
 ---
 
+## TweetClaw (Optional X/Twitter Companion)
+
+[TweetClaw](https://github.com/Xquik-dev/tweetclaw) is an OpenClaw plugin for
+structured X/Twitter workflows that need search tweets, search tweet replies,
+post tweets, post tweet replies, follower export, user lookup, media upload,
+media download, direct messages, monitor alerts, webhooks, and giveaway draws.
+
+Use TweetClaw when a skill needs X/Twitter-specific data or reviewed actions
+that go beyond post drafting, scheduling, or high-level analytics.
+
+Package: [`@xquik/tweetclaw`](https://www.npmjs.com/package/@xquik/tweetclaw)
+
+```bash
+openclaw plugins install @xquik/tweetclaw
+```
+
+### X/Twitter Workflows
+
+| Workflow | TweetClaw coverage |
+| -------- | ------------------ |
+| Search and research | Search tweets, search tweet replies, inspect threads, and run user lookup |
+| Audience work | Export followers, inspect following, and monitor account activity |
+| Publishing with review | Post tweets, post tweet replies, upload media, and send direct messages through approval-gated tool calls |
+| Automation loops | Create monitors, receive webhook events, and run giveaway draws |
+
+---
+
 ## Platform Native Analytics (Manual Fallback)
 
 When no analytics tool is available, direct users to platform-native analytics:
