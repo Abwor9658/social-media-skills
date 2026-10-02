@@ -23,6 +23,13 @@ If you use SmartScreen, select More info, then Run anyway only if you trust the 
 
 social-media-skills helps you plan, write, and review social media content for text-first platforms.
 
+## Publishing approved content
+
+When content has passed review, use [BulkPublish](https://github.com/azeemkafridi/bulkpublish-api)
+to adapt, schedule, and publish it across supported social channels. The
+[BulkPublish social media content skills](https://github.com/azeemkafridi/bulkpublish-api/tree/main/skills/social-media-content-skills)
+and [API docs](https://app.bulkpublish.com/docs) provide the publishing handoff.
+
 Use it to:
 
 - build content ideas for posts and threads
